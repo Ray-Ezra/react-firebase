@@ -86,7 +86,7 @@ function Contacts() {
     return (
         <div className='App1'>
             <div className='title'>
-               <h1>CONTACT SAVER</h1>
+               <h1 className='heading'>CONTACTS</h1>
             <button className="button2" onClick={() => setShowOverlay(true)}>Add Contact</button>             
             </div>
             {contacts.map(contact => (
